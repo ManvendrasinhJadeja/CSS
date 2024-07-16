@@ -1,0 +1,28 @@
+/* root */
+*{ margin: 0px;
+    padding: 0px;
+box-sizing: border-box;}
+/* root */
+/* main */
+.board{ margin-inline:25%;   
+    width: 806px;
+    height: 800px;
+    font-size: 75px;
+    text-align: center;
+    line-height: 100px;}
+.white{width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;  }
+    .dark{  width: 100px;
+        height: 100px;
+        background-color: #838383; }
+    .row1{display: flex; }
+    .row2{display: flex;}
+        .row3{ display: flex;}
+    .row4{display: flex; }
+    .row5{display:flex; }
+    .row6{display: flex; }
+    .row7{display: flex; }
+    .row8{ display: flex;  }
+                    /* main */

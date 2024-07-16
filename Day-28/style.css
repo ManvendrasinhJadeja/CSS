@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+@font-face {
+  font-family: poppins;
+  src: url(./Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: playfair;
+  src: url(./Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/slide-01.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10vw;
+}
+header .nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+header .nav .l {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+}
+header .nav .l .links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+header .nav .l .links a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 0.9vw;
+  font-weight: 600;
+}
+header .nav .r {
+  width: 50%;
+  justify-content: right;
+  height: inherit;
+  display: flex;
+  gap: 1.5vw;
+  align-items: center;
+  font-size: 1.5vw;
+}
+.ri-menu-line {
+  display: none;
+}
+header .hero {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+  color: rgb(51, 51, 51);
+}
+header .hero h1 {
+  font-family: playfair;
+  font-size: 4vw;
+}
+header .hero h2 {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+header .hero button {
+  width: 11vw;
+  border-radius: 25px;
+  color: white;
+  background-color: #717fe0;
+  height: 6vh;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 1vw;
+  margin-top: 10px;
+}
+main{
+  width: 100%;
+  padding: 80px 10%;
+  height: 100vw;
+  
+}
+.slide{
+  width: 100%;
+  height: 16vw;
+  display: flex;
+  justify-content: space-between;
+}
+.slide .s1,
+.slide .s2,
+.slide .s3{
+  width: 30%;
+  height: inherit;
+  /* background-color: red; */
+  border: 0.7px solid rgba(201, 198, 198, 0.546);
+}
+
+.slide .s1{
+  background-image: url(./assets/banner-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide .s2{
+  background-image: url(./assets/banner-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide .s3{
+  background-image: url(./assets/banner-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* css over */
+@media (min-width: 0px) and (max-width: 480px) {
+  header {
+    padding: 0;
+  }
+  header .nav {
+    background-color: white;
+    padding-inline: 2vw;
+  }
+
+  header .nav .l .links {
+    display: none;
+  }
+  .ri-menu-line {
+    display: flex;
+    font-size: 5.5vw;
+    font-weight: bold;
+  }
+  header .nav .r {
+    font-size: 5vw;
+    gap: 15px;
+  }
+  header .hero {
+    width: 70%;
+    padding-inline: 2vw;
+  }
+
+  header .hero h1 {
+    font-size: 8vw;
+  }
+  header .hero h2 {
+    font-size: 4vw;
+  }
+  header .hero button {
+    width: 30vw;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  header {
+    padding: 0;
+  }
+  header .nav {
+    background-color: white;
+    padding-inline: 2vw;
+  }
+
+  header .nav .l .links {
+    display: none;
+  }
+  .ri-menu-line {
+    display: flex;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  header .nav .r {
+    font-size: 3vw;
+    gap: 15px;
+  }
+  header .hero {
+    width: 70%;
+    padding-inline: 2vw;
+  }
+
+  header .hero h1 {
+    font-size: 8vw;
+  }
+  header .hero h2 {
+    font-size: 4vw;
+  }
+  header .hero button {
+    max-width: 15vw;
+    min-width: 150px;
+    height: 100%;
+    max-height: 6vh;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 2vw;
+  }
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 1px solid black;
+
+}
+.nav .navSub1{
+    width: 30%;
+    height: inherit;
+    /* background-color: green; */
+    float: left;
+    border-right: 1px solid black;
+    text-align: right;
+    padding-right: 25px;
+    font-family: serif;
+    line-height: 80px;
+    font-size:32px;
+}
+.nav .navSub2{
+    width: 40%;
+    height: inherit;
+    /* background-color: rgb(9, 0, 128); */
+    float: left;
+    font-family: serif;
+    line-height: 80px;
+
+}
+.nav .navSub2 .box{
+    width: 20%;
+    height: inherit;
+    /* background-color: aqua; */
+    float: left;
+    text-align: center;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.nav .navSub2 .box a{
+    text-decoration: none;
+    color: rgba(5, 5, 5, 0.648);
+}
+.nav .navSub2 .box1{
+    width: 40%;
+    height: inherit;
+    /* background-color: aqua; */
+    float: left;
+   
+    padding-left: 20px;
+    border-right: 1px solid black;
+}
+.nav .navSub3{
+    width: 30%;
+    height: inherit;
+    /* background-color: rgb(128, 0, 100); */
+    float: left;
+    border-left: 1px solid black;
+    line-height: 80px;
+    letter-spacing: 5px;
+    
+    padding-left: 20px;
+
+}
+.nav .navSub2 input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 10px;
+    
+    
+
+}
+
+a{
+    
+}

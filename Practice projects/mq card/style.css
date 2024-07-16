@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+
+}
+
+.main .card{
+    width: 22%;
+    height: 80vh;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.main .card .cTop{
+    width: 100%;
+    height: 70%;
+    background-color: pink;
+}
+.main .card .cTop img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.main .card .cBtm{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    padding: 1vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.main .card .cBtm h1{
+    font-size: 3vw;
+}
+.main .card .cBtm p{
+    font-size: 1vw;
+}
+
+@media ( min-width:0px) and (max-width:420px)
+{   .main {
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+}
+    .main .card{
+        width: 90%;
+        flex-direction: column;
+    }
+    .main .card .cBtm{
+        padding: 5%;
+    }
+    .main .card .cBtm h1{
+        font-size: 10vw;
+    }
+    .main .card .cBtm p{
+        font-size: 5vw;
+    }
+}
+@media ( min-width:421px) and (max-width:980px){
+    .main{
+        flex-wrap: wrap;
+
+    }
+    .main .card{
+        width: 45%;
+        margin-top: 5vh;
+    }
+    .main .card .cBtm{
+        padding: 5%;
+    }
+    .main .card .cBtm h1{
+        font-size: 5vw;
+    }
+    .main .card .cBtm p{
+        font-size: 2vw;
+    }
+}

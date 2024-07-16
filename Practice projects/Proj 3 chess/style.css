@@ -1,0 +1,65 @@
+/* root */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* root */
+.board{
+    margin-inline:25%;   
+    width: 806px;
+
+    height: 800px;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    font-size: 75px;
+    text-align: center;
+    line-height: 100px;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    /* display: flex; */
+
+}
+.dark{  
+    width: 100px;
+    height: 100px;
+    background-color: #838383;
+    /* display: flex; */
+
+}
+.row1{
+    /* float: left; */
+    display: flex;
+}
+.row2{
+    /* float: left; */
+    display: flex;
+}
+.row3{
+    /* float: left; */
+    display: flex;
+}
+.row4{
+    /* float: left; */
+    display: flex;
+}
+.row5{
+    /* float: left; */
+    display: flex;
+}
+.row6{
+    /* float: left; */
+    display: flex;
+}
+.row7{
+    /* float: left; */
+    display: flex;
+}
+.row8{
+    /* float: left; */
+    display: flex;
+}

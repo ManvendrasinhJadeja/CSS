@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>John smith Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h2>Welcome to My Photography Portfolio</h2>
+        <p>Capturing moments from today… Creating memories for a lifetime.</p>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="./assets/photo1.jpg" alt="Photo 1">
+            <img src="./assets/photo2.jpg" alt="Photo 2">
+            <img src="./assets/photo3.jpg" alt="Photo 3">
+            <img src="./assets/photo4.jpg" alt="Photo 4">
+            <img src="./assets/photo5.jpg" alt="Photo 5">
+            <img src="./assets/photo6.jpg" alt="Photo 6">
+        </div>
+    </section>
+
+    <section class="aboutme" id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm John smith , a professional photographer with over 10 years of experience. I specialize in portrait, landscape, and event photography. My passion is to capture the beauty and emotion in every moment.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jane Doe Photography. All rights reserved.</p>
+    </footer>
+</body>
+</html>

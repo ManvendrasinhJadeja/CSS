@@ -1,0 +1,352 @@
+/* Root */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Root */
+/* font */
+@font-face {
+    font-family:Noto ;
+    src: url(Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:PT ;
+    src: url(./PT_Serif/PTSerif-Regular.ttf);
+}
+@font-face {
+    font-family:Rethink ;
+    src: url(./Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
+}
+/* font */
+/* main */
+.nav{
+    width: 100%;
+    height: 60px;
+}
+   .nav .navLinks{
+        /* background-color: red; */
+        width: 40%;
+        height: 60px;
+        float: left;
+        margin-left: 50px;
+        line-height: 60px;
+        }
+        .nav .navLinks a{
+            margin-inline: 30px;
+            color: rgb(101, 101, 101);
+            text-decoration: none;
+            font-family: PT;
+            }
+            .nav .navSpace{
+                width: 45%;
+                height: 60px;
+                float: left;
+            }
+            .nav .navIcons{
+                /* background-color: blue; */
+
+            width: 10%;
+            float: right;
+            height: 60px;
+        }
+        .nav .navIcons img{
+            margin-top: 10px;
+            
+        }
+        /* Hero */
+       .hero .heroBox1{
+            width: 55%;
+            background-color: black;
+            height:800px ;
+            float: left;
+            font-family: Noto;
+            color: white;
+            padding-block:20% ;
+            padding-inline:4% ;
+           
+        }
+        .hero .heroBox1 p{
+            font-size: 18px;
+        }
+        .hero .heroBox1 h1{
+            font-size: 50px;
+            line-height: 70px;
+            letter-spacing: 0.5px;
+            word-spacing: 2px;
+        }
+        .hero .heroBox2{
+            background-image: url(./Assets/hero.jpg);
+            width: 45%;
+            height:800px ;
+            background-position: center;
+            float: left;
+        }
+       .hero .heroBox2 img{
+            width: 100%;
+            height: 100%;
+        }
+        /* Hero */
+
+        /*Portfolio  */
+        .portfolio{
+            margin-top: 20px;
+            
+
+        }
+         .heading{
+            margin-inline:45% ;
+            width: 20%;
+            margin-block:110px ;
+            
+        }
+        .heading .number{
+            width: 60px;
+            height: 26px;
+            background-color: black;
+            color: white;
+            float: left;
+            text-align: center;
+            line-height: 28px;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+         .heading{
+            font-size: 20px;
+            font-family: Noto;
+            float: left;
+        }
+        
+        .pBox{
+            height:500px ;
+            width: 70%;
+            margin-inline: 15%;
+            float: left;
+            clear: left;
+            
+        }
+        .pBox .portfolioBox{
+            width: 100%;
+            height: 100%;
+            /* background-color: red; */
+            
+        }
+        .img1{
+            background-image: url(./Assets/1.jpg);
+            width: 63%;
+            height: 100%;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            float: left ;
+
+        }
+        .img2{
+            background-image: url(./Assets/2.jpg);
+            width: 36%;
+            height: 95%;
+            margin-top: 8px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            float: left ;
+            margin-left: 0px;
+            /* margin-right: 10px; */
+
+        }
+        .portfolioBox2{
+
+            width: 70%;
+                height: 350px;
+                /* background-color: red; */
+                clear: both;
+                margin-inline: 15%;
+                float: left;
+
+                
+        }
+
+        .img3{
+            background-image: url(./Assets/3.jpeg);
+            height: 90%;
+            clear: both;
+            width: 47%;
+            float: left;
+            margin-top: 0px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-right: 10px;
+            margin-left: 0px;
+            
+            
+            }
+            .img4{
+            background-image: url(./Assets/4.jpeg);
+            height: 100%;
+            /* clear: both; */
+            width: 48%;
+            margin-top: -5px;
+
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            float: left;
+        }
+
+        /*Portfolio  */
+
+        /* About */
+        .aboutMain{
+            
+            margin-inline: 27%;
+            background-color: transparent;
+
+
+        }
+        .aboutMain span{
+            width: 50%;
+            color: rgb(235, 235, 235);
+            height: 100%;
+            font-size: 600px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: transparent;
+            float: none;
+            margin-left: 30px;
+            /* position: absolute; */
+            /* z-index: 100; */
+
+     }
+        .aboutMain h3{
+            
+            color: rgb(32, 31, 31);
+            height:inherit ;
+            width: inherit;
+            margin: 0px;
+            font-weight: 100;
+            font-size: 34px;
+            text-align: center;
+            background-color: transparent;
+            /* overlay:auto ; */
+            z-index: 100;   
+            position: absolute;
+            margin-top:250px ;
+   
+                  
+
+        }
+        /* About */
+        /* contact */
+        .contact{
+            color: white;
+            background-color: black;
+            width: 100%;
+            height: 620px;
+            
+        }
+        .footHead{
+            margin-inline: 44%;
+            margin-top: 100px;
+        }
+        .contact .footNum{
+            margin-top: 50px;
+
+            width: 60px;
+            height: 26px;
+            background-color: white;
+            color: black;
+            float: left;
+            text-align: center;
+            line-height: 28px;
+            font-size: 20px;
+            margin-right: 10px;
+
+        }
+    
+        .contact .footHead p{
+            font-size: 25px;
+            margin-top: 46px;
+
+            font-family:PT ;
+            float: left;
+            text-align: center;
+        }
+        .footMain{
+            width: 60%;
+            padding-top: 10%;
+            margin-inline: 22%;
+           
+
+        }
+
+        .footMain input{
+            border:none;
+            outline: none;
+            background-color: transparent;
+            width: 400px;
+        }
+        
+        .footName{
+            width: 400px;
+            height: 30px;
+            margin-top: 20px;
+            /* background-color: white; */
+            float: left;
+            border-bottom: 1px solid white;
+
+            }
+            .footMail{
+                height: 30px;
+                /* background-color: white; */
+                width: 400px;
+                margin-top: 20px;
+                float: left;
+                border-bottom: 1px solid white;
+                clear: right;
+
+                }
+                .footSub{width: 800px;
+                    /* background-color: red; */
+                    height: 30px;
+                    margin-top: 70px;
+                    /* margin: 50px; */
+
+
+                    border-bottom: 1px solid white;
+
+
+                    
+                    }
+                    .footMess{width: 800px;
+                        /* background-color: white; */
+                    height: 30px;
+                    margin-top: 70px;
+
+                    border-bottom: 1px solid white;
+
+                    
+        }   
+        .submit{
+            outline: none;
+            border: none;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            margin-top: 50px;
+            margin-inline: 45%; ;
+            width: 100px;
+            height: 30px;
+            
+        }
+
+        .submit:hover{
+            cursor: pointer;
+
+        }
+        /* contact */
+
+
+
+/* main */

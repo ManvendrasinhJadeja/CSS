@@ -1,0 +1,19 @@
+.d1 p::first-letter{
+    font-size: 30px;
+}
+.d1 p::first-line{
+    font-style: italic;
+}
+.d1 p:first-child{
+    color: green;
+}
+.d1 p:last-child{
+    font-weight: bold;
+}
+.d1 p:nth-last-child(2){
+    color: red;
+}
+.d1 p::selection{
+    background-color: yellow;
+    color: red;
+}
